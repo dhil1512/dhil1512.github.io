@@ -57,7 +57,7 @@ function TopNav(){
     return(
         <Navbar className="navBar" variant="dark" expand="lg">
             <Container>
-                <Navbar.Brand className="logo" href="#home">dylan.systems</Navbar.Brand>
+                <Navbar.Brand className="logo" href="#home">dylan wilson</Navbar.Brand>
                 <Navbar.Toggle className="navCollapse" aria-controls="navbar-nav" />
                 <Navbar.Collapse id="navbar-nav">
                 <Nav className="ml-auto">
