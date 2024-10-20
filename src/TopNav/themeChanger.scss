@@ -1,0 +1,16 @@
+@import '../index.scss';
+
+.themeChangerBtn{
+    background-color: var(--primary-color);
+    border: none;
+    padding: 5px 10px;
+    overflow: hidden;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.themeChangerBtn:hover{
+    color: var(--primary-text-color);
+    cursor: pointer;    
+    transition: 0.3s ease;
+}

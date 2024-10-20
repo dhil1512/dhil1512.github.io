@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import '../index.scss';
+
+.navBar{
+    border-top: solid var(--primary-color) 1px;
+    padding: 10px 15px;
+}
+
+.logo{
+    font-family: "Allura", sans-serif;
+    font-size: 35px;
+    color: var(--primary-color);
+}
+
+.logo:hover{
+    color: var(--primary-text-color);
+    transition: 0.3s ease;
+}
+
+.ml-auto{
+    margin-left: auto;
+}
+
+.navBar .link{
+    text-decoration: none;
+    color:  var(--primary-text-color);
+    font-size: 18px;
+}
+
+.navBar .active{
+    color: var(--primary-text-color) !important;
+}
+
+.navBar .link:hover{
+    color: var(--primary-color);
+    transition: 0.3s ease;
+}
+
+.navBar .active:hover{
+    color: var(--primary-color) !important;
+    transition: 0.3s ease;
+}

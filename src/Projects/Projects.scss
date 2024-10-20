@@ -1,0 +1,39 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import '../index.scss';
+
+.border-color{
+    border: solid var(--primary-border-color) 1px;
+}
+
+.container-height{
+    height: 10.5rem;
+}
+
+.project-container{
+    color: var(--secondary-text-color);
+    border: solid var(--primary-border-color) 1px;
+    box-shadow: 0 0 10px rgba(25, 0, 255, 0.15), 0 0 20px rgba(0, 123, 255, 0.1), 0 0 30px rgba(0, 123, 255, 0.05);
+    transition: 0.5s ease;
+}
+
+.project-container:hover{
+    color: var(--opposite-color);
+    border: solid var(--primary-border-color) 1px;
+    box-shadow: 0 0 20px rgba(25, 0, 255, 0.25), 0 0 3px rgba(0, 123, 255, 0.2), 0 0 40px rgba(0, 123, 255, 0.15);
+    transition: 0.5s ease;
+}
+
+.project-container h5, h3{
+    color: var(--primary-text-color);
+}
+
+@media screen and (max-width: 800px){
+    .col-6{
+        width: 100%;
+    }
+
+    .container-height{
+        height: auto;
+    }
+}

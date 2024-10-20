@@ -1,0 +1,27 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import '../index.scss';
+
+
+.btn{
+    border: solid var(--primary-color) 1px;
+    color: var(--primary-text-color);
+}
+
+.btn:hover{
+    box-shadow: 0 0 10px rgba(25, 0, 255, 0.6), 0 0 20px rgba(0, 123, 255, 0.4), 0 0 30px rgba(0, 123, 255, 0.2);
+    color: var(--primary-text-color);
+    border: solid var(--primary-color) 1px;
+    transition: 0.3s ease;
+}
+
+.active-btn {
+    box-shadow: 0 0 10px rgba(25, 0, 255, 0.6), 0 0 20px rgba(0, 123, 255, 0.4), 0 0 30px rgba(0, 123, 255, 0.2);
+    border: solid var(--opposite-color) 1px;
+    color: var(--primary-text-color);
+}
+
+.content{
+    margin: 0.5rem;
+}
+

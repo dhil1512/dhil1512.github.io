@@ -1,0 +1,17 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import '../index.scss';
+
+.footer{
+    border-top: solid var(--primary-color) 1px;
+    color: var(--secondary-text-color);
+}
+
+.footer h5{
+    color: var(--primary-text-color);
+}
+
+.footer a{
+    text-decoration: none;
+    color: var(--secondary-text-color);
+}

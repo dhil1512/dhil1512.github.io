@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+:root {
+  --primary-color: #ff8edf;
+  --background-color: #000;
+  --primary-text-color: #fcdcf3;
+  --secondary-text-color: #8c8d8e;
+  --primary-border-color: #111;
+  --opposite-color: #FFF;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", serif;
+}
+
+body{
+  background-color: var(--background-color);
+}
