@@ -8,6 +8,12 @@
     color: var(--primary-text-color);
 }
 
+.disabled{
+    border: solid var(--secondary-text-color) 1px;
+    color: var(--secondary-text-color);
+    cursor: not-allowed;
+}
+
 .btn:hover{
     box-shadow: 0 0 10px rgba(25, 0, 255, 0.6), 0 0 20px rgba(0, 123, 255, 0.4), 0 0 30px rgba(0, 123, 255, 0.2);
     color: var(--primary-text-color);

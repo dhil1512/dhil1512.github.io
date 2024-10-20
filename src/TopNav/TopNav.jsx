@@ -52,7 +52,7 @@ function TopNav(){
                 <Navbar.Toggle aria-controls="navbar-nav" />
                 <Navbar.Collapse id="navbar-nav">
                 <Nav className="ml-auto">
-                    <Nav.Link className="link" href="#github">GitHub</Nav.Link>
+                    <Nav.Link className="link" href="https://github.com/dhil1512/" target="_blank">GitHub</Nav.Link>
                 </Nav>
                 <button className="themeChangerBtn" onClick={() => changeTheme()}>
                     <i className={icon}></i>
