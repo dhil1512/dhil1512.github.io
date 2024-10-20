@@ -1,7 +1,7 @@
 {
   "homepage": "https://dylanw.co.uk",
   "name": "dylanreactjs",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
