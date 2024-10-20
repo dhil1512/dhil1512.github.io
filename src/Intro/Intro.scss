@@ -25,11 +25,12 @@
 .secondary-link{
     border: solid var(--primary-color) 1px;
     color: var(--primary-color);
+    box-shadow: var(--button-box-shadow);
 }
 
 .secondary-link:hover{
-    background-color: var(--primary-color);
-    color: var(--background-color);
+    background-color: var(--active-background-bg);
+    color: #FFF;
     transition: 0.5s ease;
 }
 
