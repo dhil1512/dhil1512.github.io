@@ -4,27 +4,29 @@
 
 
 .btn{
-    border: solid var(--primary-color) 1px;
-    color: var(--primary-text-color);
+    border: solid var(--opposite-color) 1px;
+    color: var(--opposite-color);
+    box-shadow: none;
 }
 
 .disabled{
     border: solid var(--secondary-text-color) 1px;
     color: var(--secondary-text-color);
     cursor: not-allowed;
+    box-shadow: none;
 }
 
 .btn:hover{
-    box-shadow: 0 0 10px rgba(25, 0, 255, 0.6), 0 0 20px rgba(0, 123, 255, 0.4), 0 0 30px rgba(0, 123, 255, 0.2);
-    color: var(--primary-text-color);
+    box-shadow: var(--button-box-shadow);
+    color: var(--primary-color);
     border: solid var(--primary-color) 1px;
     transition: 0.3s ease;
 }
 
 .active-btn {
-    box-shadow: 0 0 10px rgba(25, 0, 255, 0.6), 0 0 20px rgba(0, 123, 255, 0.4), 0 0 30px rgba(0, 123, 255, 0.2);
-    border: solid var(--opposite-color) 1px;
-    color: var(--primary-text-color);
+    box-shadow: var(--button-box-shadow);
+    border: solid var(--primary-color) 1px;
+    color: var(--opposite-color);
 }
 
 .content{

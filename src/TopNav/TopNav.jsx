@@ -13,12 +13,12 @@ function TopNav(){
         // Initialise Light Theme
         if (darkMode) {
             // Set colors for light theme
-            document.documentElement.style.setProperty('--primary-color', '#3f7ef5');
             document.documentElement.style.setProperty('--background-color', '#FFF');
             document.documentElement.style.setProperty('--primary-text-color', '#000');
             document.documentElement.style.setProperty('--secondary-text-color', '#555');
             document.documentElement.style.setProperty('--primary-border-color', '#E5E5E5');
             document.documentElement.style.setProperty('--opposite-color', '#000');
+            document.documentElement.style.setProperty('--button-box-shadow', 'none');
             
             // Set Dark Mode to False
             setDarkMode(false);
@@ -29,13 +29,13 @@ function TopNav(){
         // Initialise Dark Theme
         } else {
             // Set colors for dark theme
-            document.documentElement.style.setProperty('--primary-color', '#ff8edf');
             document.documentElement.style.setProperty('--background-color', '#000');
             document.documentElement.style.setProperty('--primary-text-color', '#fcdcf3');
             document.documentElement.style.setProperty('--secondary-text-color', '#8c8d8e');
             document.documentElement.style.setProperty('--primary-border-color', '#111');
             document.documentElement.style.setProperty('--opposite-color', '#FFF');
-            
+            document.documentElement.style.setProperty('--button-box-shadow', '0 0 10px rgba(25, 0, 255, 0.6), 0 0 20px rgba(0, 123, 255, 0.4), 0 0 30px rgba(0, 123, 255, 0.2)');
+
             // Set Dark Mode to True
             setDarkMode(true);
             Cookies.set('userTheme', 'dark', {expires: 365 * 100}); 
@@ -49,7 +49,7 @@ function TopNav(){
         <Navbar className="navBar" variant="dark" expand="lg">
             <Container>
                 <Navbar.Brand className="logo" href="#home">dylan.systems</Navbar.Brand>
-                <Navbar.Toggle aria-controls="navbar-nav" />
+                <Navbar.Toggle className="navCollapse" aria-controls="navbar-nav" />
                 <Navbar.Collapse id="navbar-nav">
                 <Nav className="ml-auto">
                     <Nav.Link className="link" href="https://github.com/dhil1512/" target="_blank">GitHub</Nav.Link>
