@@ -14,7 +14,7 @@ function Intro(){
             <div className="col-12">
                 <div className="project-container p-3 mb-5 rounded">
                     <button className={`btn m-2 ${activeTab === 'tab1' ? 'active-btn' : ''}`} onClick={() => handleTabClick('tab1')}>About</button>
-                    <button className={`btn m-2 ${activeTab === 'tab2' ? 'active-btn' : ''}`} onClick={() => handleTabClick('tab2')}>Projects</button>
+                    <button className={`btn m-2 ${activeTab === 'tab2' ? 'active-btn' : ''}`} onClick={() => handleTabClick('tab2')}>Contact</button>
 
                     <div className="content">
                         {activeTab === 'tab1' && 
@@ -26,8 +26,8 @@ function Intro(){
 
                         {activeTab === 'tab2' &&
                         <div>
-                        <h3>Projects</h3>
-                        <p>This is the content for Tab 1. You can put any content here!</p>
+                        <h3>Contact</h3>
+                        <p>The best way to contact me is at <strong>d@dylanw.co.uk</strong></p>
                         </div>
                         }
 
