@@ -12,7 +12,7 @@ function Intro(){
         <div className="container text-white mt-3">
         <div className="row">
             <div className="col-12">
-                <div className="project-container p-3 mb-5 rounded">
+                <div className="project-container p-2 mb-5 rounded">
                     <button className={`btn m-2 ${activeTab === 'tab1' ? 'active-btn' : ''}`} onClick={() => handleTabClick('tab1')}>About</button>
                     <button className={`btn m-2 ${activeTab === 'tab2' ? 'active-btn' : ''}`} onClick={() => handleTabClick('tab2')}>Contact</button>
 

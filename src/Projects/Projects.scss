@@ -13,14 +13,14 @@
 .project-container{
     color: var(--secondary-text-color);
     border: solid var(--primary-border-color) 1px;
-    box-shadow: 0 0 10px rgba(25, 0, 255, 0.15), 0 0 20px rgba(0, 123, 255, 0.1), 0 0 30px rgba(0, 123, 255, 0.05);
+    box-shadow: var(--box-shadow);
     transition: 0.5s ease;
 }
 
 .project-container:hover{
     color: var(--opposite-color);
     border: solid var(--primary-border-color) 1px;
-    box-shadow: 0 0 20px rgba(25, 0, 255, 0.25), 0 0 3px rgba(0, 123, 255, 0.2), 0 0 40px rgba(0, 123, 255, 0.15);
+    box-shadow: var(--box-shadow-hover);
     transition: 0.5s ease;
 }
 

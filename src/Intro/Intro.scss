@@ -6,7 +6,6 @@
 .btn{
     border: solid var(--opposite-color) 1px;
     color: var(--opposite-color);
-    box-shadow: none;
 }
 
 .disabled{
@@ -23,10 +22,29 @@
     transition: 0.3s ease;
 }
 
+.secondary-link{
+    border: solid var(--primary-color) 1px;
+    color: var(--primary-color);
+}
+
+.secondary-link:hover{
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    transition: 0.5s ease;
+}
+
 .active-btn {
     box-shadow: var(--button-box-shadow);
     border: solid var(--primary-color) 1px;
-    color: var(--opposite-color);
+    color: #FFF;
+    background: var(--active-background-bg);
+}
+
+.active-btn:hover{
+    box-shadow: var(--button-box-shadow);
+    border: solid var(--primary-color) 1px;
+    color: #FFF;
+    background: var(--active-background-bg);
 }
 
 .content{
